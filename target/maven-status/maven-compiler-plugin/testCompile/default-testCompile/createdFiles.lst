@@ -1,0 +1,5 @@
+com\firstboot\parent\ParentApplicationTests.class
+com\firstboot\parent\ApplicationTests.class
+com\firstboot\parent\JpaTest.class
+com\firstboot\parent\ApplicationTest2.class
+com\firstboot\parent\PropertiesTest.class

@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    database-platform: mysql
+  my-example:
+    url:
+#      - http://example.com
+#      - http://spring.io
+#        上诉方式可用来表示list类型参数url[] 也可用以下方式做
+        http://example.com, http://spring.io
+
