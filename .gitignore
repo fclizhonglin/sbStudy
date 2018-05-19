@@ -1,1 +1,10 @@
 /target
+*.iml
+.idea
+/src/main/webapp/WEB-INF/logs/
+.DS_STore
+.classPath
+.project
+launch.json
+org.eclipse*
+package.sh
