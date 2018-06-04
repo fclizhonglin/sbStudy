@@ -2,6 +2,7 @@ package com.firstboot.parent.service.impl;
 
 import com.firstboot.parent.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +14,7 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
 
     @Autowired
+    @Qualifier("primaryJdbcTemplate")
     private JdbcTemplate jdbcTemplate;
 
     @Override
